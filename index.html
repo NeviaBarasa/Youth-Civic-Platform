@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Forum and Polls for Youth Participation in Africa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youth Tech Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #800000;
+        }
+
+        .section {
+            margin-top: 40px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #800000;
+            text-transform: uppercase;
+        }
+
+        .forum-list, .polls-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .forum-list li, .polls-list li {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .forum-list li h3, .polls-list li h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .forum-list li p, .polls-list li p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .poll-options {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .poll-options span {
+            font-weight: bold;
+        }
+
+        .info {
+            font-size: 12px;
+            color: #999;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="container">
+        <h1>Youth Tech Solutions for Africa</h1>
+        <nav>
+            <div  class="section" id="forum-section">
+                <ul class="forum-list">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/forums">Forums</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/polls">Polls</a>
+                  </li>
+                  </ul>
+            </div>
+        </nav>
+        <div class="section" id="forum-section">
+            <div class="section-title">Forum Discussions</div>
+            <ul class="forum-list">
+                <li>
+                    <h3>Youth and Political Participation</h3>
+                    <p>Discuss how young people can engage in politics to influence decisions that affect their future.</p>
+                    <div class="info">Created by: User1 | 24 Comments | 100 Views | Date: 10th Oct 2024</div>
+                </li>
+                <li>
+                    <h3>Economic Inequality: The Role of the African Youth</h3>
+                    <p>Debate on how youth can actively work to bridge the economic divide in their nations.</p>
+                    <div class="info">Created by: User2 | 16 Comments | 50 Views | Date: 12th Oct 2024</div>
+                </li>
+                <li>
+                    <h3>Youth-Led Protests: Effective or Not?</h3>
+                    <p>Share experiences and suggestions on organizing and leading youth protests that achieve results.</p>
+                    <div class="info">Created by: User3 | 34 Comments | 120 Views | Date: 15th Oct 2024</div>
+                </li>
+                <li>
+                    <h3>Leadership Accountability: What Role Should Youth Play?</h3>
+                    <p>Explore methods that youth can adopt to hold leaders accountable in African governments.</p>
+                    <div class="info">Created by: User4 | 10 Comments | 75 Views | Date: 18th Oct 2024</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section" id="poll-section">
+            <div class="section-title">Polls</div>
+            <ul class="polls-list">
+                <li>
+                    <h3>Should Youth Have More Political Representation?</h3>
+                    <div class="poll-options">
+                        <span>Yes:</span> 70%<br>
+                        <span>No:</span> 20%<br>
+                        <span>Not Sure:</span> 10%
+                    </div>
+                    <div class="info">Total Votes: 150</div>
+                </li>
+                <li>
+                    <h3>What is the Most Pressing Issue for African Youth Today?</h3>
+                    <div class="poll-options">
+                        <span>Unemployment:</span> 45%<br>
+                        <span>Corruption:</span> 35%<br>
+                        <span>Education:</span> 20%
+                    </div>
+                    <div class="info">Total Votes: 200</div>
+                </li>
+                <li>
+                    <h3>Are Peaceful Protests Effective in Africa?</h3>
+                    <div class="poll-options">
+                        <span>Yes:</span> 55%<br>
+                        <span>No:</span> 30%<br>
+                        <span>Sometimes:</span> 15%
+                    </div>
+                    <div class="info">Total Votes: 95</div>
+                </li>
+                <li>
+                    <h3>Is Digital Activism Enough to Drive Change?</h3>
+                    <div class="poll-options">
+                        <span>Yes, it’s effective:</span> 40%<br>
+                        <span>No, offline actions are needed:</span> 45%<br>
+                        <span>Not sure:</span> 15%
+                    </div>
+                    <div class="info">Total Votes: 80</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
