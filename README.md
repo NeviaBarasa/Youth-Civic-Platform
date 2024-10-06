@@ -81,12 +81,6 @@ The platform seeks to:
 - **Admin Dashboard**: Enable moderators to manage content, approve discussions, and oversee poll results.
 - **Advanced Poll Analytics**: Display more detailed poll insights and visualizations.
 
-## License
-This project is licensed under the MIT License.
 
 ## Contributors
-- Your Name - [@neviabarasa](https://github.com/neviabarasa)
-
----
-
-This **README** provides a clear overview of the project and instructions for setting it up.
+[@neviabarasa](https://github.com/neviabarasa)
